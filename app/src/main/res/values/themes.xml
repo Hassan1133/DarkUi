@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LookUp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_light_primary</item>
+         <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.LookUp" parent="Base.Theme.LookUp" />
+
+    <style name="TextViewBoldFont">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+
+    <style name="TextViewRegularFont">
+        <item name="fontFamily">@font/gilroy_regular</item>
+    </style>
+
+    <style name="EditTextRegularFont">
+        <item name="fontFamily">@font/gilroy_regular</item>
+    </style>
+
+    <style name="ButtonBoldFont">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+</resources>

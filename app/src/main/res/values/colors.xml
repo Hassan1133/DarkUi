@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_bg">#19121E</color>
+    <color name="my_light_primary">#542A72</color>
+    <color name="bg_circle_clr">#382744</color>
+    <color name="white_txt">#FFFFFFFF</color>
+    <color name="edit_txt_hint_clr">#C2C1C1</color>
+    <color name="edit_txt_stroke_clr">#A095B3</color>
+    <color name="suffix_txt_clr">#FA0303</color>
+    <color name="suffix_txt_clr_yellow">#FFC107</color>
+    <color name="helper_txt_clr">#FA0303</color>
+</resources>

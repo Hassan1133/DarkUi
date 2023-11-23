@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/centerDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/centerDataImg"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cool_background" />
+
+        <TextView
+            android:id="@+id/centerDataTxt"
+            style="@style/TextViewRegularFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerDataImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/center_data_txt"
+            android:textColor="@color/white_txt"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/centerDataDetailTxt"
+            style="@style/TextViewRegularFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerDataTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/center_data_detail_txt"
+            android:textColor="@color/white_txt"
+            android:textSize="@dimen/_11sdp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        style="@style/TextViewRegularFont"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@+id/centerDataLayout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:text="Log in"
+        android:textSize="@dimen/_14sdp"
+        app:cornerRadius="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupBtn"
+        style="@style/TextViewRegularFont"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@+id/loginBtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/app_bg"
+        android:text="Sign up"
+        android:textColor="@color/my_light_primary"
+        android:textSize="@dimen/_14sdp"
+        app:cornerRadius="30dp"
+        app:strokeColor="@color/my_light_primary"
+        app:strokeWidth="2dp" />
+
+</RelativeLayout>

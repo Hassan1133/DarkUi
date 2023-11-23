@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LookUp</string>
+    <string name="hello_txt">Hello!</string>
+    <string name="login_txt">Please login for more excitement</string>
+    <string name="center_data_txt">ViDiLook Tech Inc</string>
+    <string name="center_data_detail_txt">Online services have become a part of life</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_helper_txt">Password cannot be null</string>
+    <string name="invitation_code">Invitation Code</string>
+    <string name="invitation_code_helper_txt">Invitation code cannot be null</string>
+    <string name="c_password">Confirm Password</string>
+    <string name="c_password_helper_txt">Confirm the login password again</string>
+    <string name="email_helper_txt">Email cannot be null</string>
+    <string name="invitation_code_suffix">Required</string>
+    <string name="verification_code">Verification Code for Email</string>
+    <string name="verification_code_suffix">Send</string>
+    <string name="verification_code_helper_txt">Email verification code cannot be null</string>
+    <string name="have_account">Already have an account, </string>
+    <string name="login_now">Please log in now</string>
+    <string name="continuing">By continuing, you agree to the</string>
+    <string name="user_agreement">&lt;&lt;User Agreement&gt;&gt;</string>
+    <string name="privacy_policy">&lt;&lt;Privacy Policy&gt;&gt;</string>
+
+</resources>
